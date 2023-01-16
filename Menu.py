@@ -41,17 +41,17 @@ def calculadora_de_indice_de_massa_corporea(pergunta_peso, pergunta_altura):
 pergunta_menu = input('Olá, qual item do menu você gostaria?: ')
 
 match pergunta_menu:
-    case ['a' | 'A']: 
+    case 'a': 
         pergunta_numero = abs(int(input('Digite um numero: ')))
         indentificador_de_numero_primo(pergunta_numero)
-    case ['a' | 'A']:
+    case 'b':
         pergunta_numero = int(input('Digite um numero: '))
         logaritmo_de_numero(pergunta_numero)
-    case ['c' | 'C']:
+    case 'c':
         pergunta_peso = int(input('Qual o seu peso?: '))
         pergunta_altura = float(input('Qual a sua altura?: '))
         calculadora_de_indice_de_massa_corporea(pergunta_peso, pergunta_altura)
-    case ['f' | 'F']:
+    case 'd':
         print('Tenha um bom dia!')
 
 
