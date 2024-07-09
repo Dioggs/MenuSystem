@@ -1,2 +1,2 @@
-# Menu_System
+# MenuSystem
 Uma aplicação de menu básica feito em Python. 
